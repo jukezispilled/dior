@@ -10,7 +10,7 @@ function Home() {
       <div className='absolute top-[10%]'>
         DIOR DOGE
       </div>
-      <a href="/products" className='absolute bottom-[15%] font-custom1 text-2xl md:text-3xl bg-white w-min px-3 py-2 border whitespace-nowrap'>
+      <a href="/products" className='absolute bottom-[15%] font-custom1 text-2xl md:text-3xl bg-white w-min px-3 py-2 border-2 border-black whitespace-nowrap'>
         SHOP NOW
       </a>
     </div>
