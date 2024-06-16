@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 
+// Define a constant for the buy link
+const buyLink = "https://pump.fun/board";
+
 function Products() {
   return (
     <div className='min-h-screen w-screen relative'>
@@ -17,7 +20,7 @@ function Products() {
               <div className="font-bold">Cashmere Turtle Neck</div>
               <div>7.5 SOL</div>
             </div>
-            <a href="/buy-product1" className="absolute bottom-4 right-4 bg-white px-4 py-2 text-black hover:bg-gray-200 transition duration-200 ease-in-out">Buy</a>
+            <a href={buyLink} className="absolute bottom-4 right-4 bg-white px-4 py-2 text-black hover:bg-gray-200 transition duration-200 ease-in-out">Buy</a>
           </div>
           <div className="relative h-72 w-72 sm:h-96 sm:w-96 md:hover:scale-105 transition duration-200 ease-in-out overflow-hidden"
             style={{ backgroundImage: "url('/product2.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
@@ -26,7 +29,7 @@ function Products() {
               <div className="font-bold">Pattern Bucket Hat</div>
               <div>3.5 SOL</div>
             </div>
-            <a href="/buy-product2" className="absolute bottom-4 right-4 bg-white px-4 py-2 text-black hover:bg-gray-200 transition duration-200 ease-in-out">Buy</a>
+            <a href={buyLink} className="absolute bottom-4 right-4 bg-white px-4 py-2 text-black hover:bg-gray-200 transition duration-200 ease-in-out">Buy</a>
           </div>
           <div className="relative h-72 w-72 sm:h-96 sm:w-96 md:hover:scale-105 transition duration-200 ease-in-out overflow-hidden"
             style={{ backgroundImage: "url('/product3.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
@@ -35,7 +38,7 @@ function Products() {
               <div className="font-bold">Shades</div>
               <div>2.5 SOL</div>
             </div>
-            <a href="/buy-product3" className="absolute bottom-4 right-4 bg-white px-4 py-2 text-black hover:bg-gray-200 transition duration-200 ease-in-out">Buy</a>
+            <a href={buyLink} className="absolute bottom-4 right-4 bg-white px-4 py-2 text-black hover:bg-gray-200 transition duration-200 ease-in-out">Buy</a>
           </div>
           <div className="relative h-72 w-72 sm:h-96 sm:w-96 md:hover:scale-105 transition duration-200 ease-in-out overflow-hidden"
             style={{ backgroundImage: "url('/product4.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
@@ -44,7 +47,7 @@ function Products() {
               <div className="font-bold">Bling Collar</div>
               <div>5 SOL</div>
             </div>
-            <a href="/buy-product4" className="absolute bottom-4 right-4 bg-white px-4 py-2 text-black hover:bg-gray-200 transition duration-200 ease-in-out">Buy</a>
+            <a href={buyLink} className="absolute bottom-4 right-4 bg-white px-4 py-2 text-black hover:bg-gray-200 transition duration-200 ease-in-out">Buy</a>
           </div>
         </div>
       </div>
