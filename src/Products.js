@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 // Define a constant for the buy link
-const buyLink = "https://pump.fun/board";
+const buyLink = "https://pump.fun/CqCkCdk4wdL1dgBwQbrN9isUCz6zfBx4HkpL2Qgupump";
 
 function Products() {
   return (
