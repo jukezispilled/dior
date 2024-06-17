@@ -15,7 +15,7 @@ function Products() {
         <div className="font-custom1 grid grid-cols-1 sm:grid-cols-2 gap-4 mb-[7.5%] text-[20px] leading-none md:text-3xl">
           <div className="relative h-72 w-72 sm:h-96 sm:w-96 md:hover:scale-105 transition duration-200 ease-in-out overflow-hidden"
             style={{ backgroundImage: "url('/product1.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-65"></div>
             <div className="absolute bottom-4 left-4 text-white">
               <div className="font-bold">Cashmere Turtle Neck</div>
               <div>7.5 SOL</div>
@@ -24,7 +24,7 @@ function Products() {
           </div>
           <div className="relative h-72 w-72 sm:h-96 sm:w-96 md:hover:scale-105 transition duration-200 ease-in-out overflow-hidden"
             style={{ backgroundImage: "url('/product2.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-65"></div>
             <div className="absolute bottom-4 left-4 text-white">
               <div className="font-bold">Pattern Bucket Hat</div>
               <div>3.5 SOL</div>
@@ -33,7 +33,7 @@ function Products() {
           </div>
           <div className="relative h-72 w-72 sm:h-96 sm:w-96 md:hover:scale-105 transition duration-200 ease-in-out overflow-hidden"
             style={{ backgroundImage: "url('/product3.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-65"></div>
             <div className="absolute bottom-4 left-4 text-white">
               <div className="font-bold">Shades</div>
               <div>2.5 SOL</div>
@@ -42,7 +42,7 @@ function Products() {
           </div>
           <div className="relative h-72 w-72 sm:h-96 sm:w-96 md:hover:scale-105 transition duration-200 ease-in-out overflow-hidden"
             style={{ backgroundImage: "url('/product4.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-65"></div>
             <div className="absolute bottom-4 left-4 text-white">
               <div className="font-bold">Bling Collar</div>
               <div>5 SOL</div>
